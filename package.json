@@ -5,14 +5,12 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.0.2"
+    "dotenv": "^16.0.2",
+    "shelljs": "^0.8.5"
   },
-  "scripts": {
-    "go": "docker compose --env-file=.env up -d",
-    "stop": "docker compose down",
-    "clear": "docker compose rm",
-    "purge": "docker compose rm -v"
+  "bin": {
+    "go": "bin/go.js",
+    "stop": "bin/stop.js"
   },
-  "author": "digiox <bourlon.lyann84@gmail.com>",
-  "devDependencies": {}
+  "author": "digiox <bourlon.lyann84@gmail.com>"
 }
