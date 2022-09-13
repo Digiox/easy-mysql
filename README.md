@@ -5,6 +5,8 @@
 
 Adding mysql to your project has never been so easy
 
+This is a WIP project, please do not use it for a real project at this time
+
 ## Installation
 
 Install via npm
