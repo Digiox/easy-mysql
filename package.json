@@ -1,6 +1,6 @@
 {
   "name": "@digioxdigiox/easy-mysql",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "the easiest way to install and use mysql with nodejs",
   "main": "index.js",
   "license": "MIT",
