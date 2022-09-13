@@ -1,3 +1,55 @@
+# easy-mysql
+
+Adding mysql to your project has never been so easy
+
+## Installation
+
+Install via npm
+
+
+```bash
+npm i @digioxdigiox/easy-mysql
+```
+
+Install via yarn
+
+```bash
+yarn add @digioxdigiox/easy-mysql
+```
+
+## Usage
+
+import the db instance
+
+```javascript
+const { db } = require("@digioxdigiox/easy-mysql/mysql-connect");
+
+// Usage example
+
+db.query(
+    'SELECT * FROM `users` ',
+    function(err, results, fields) {
+        if (err) {
+            console.error(err)
+        }
+      console.log(results);
+    }
+  );
+```
+
+
+You can now use the database instance as you would do with the package [mysql2](https://www.npmjs.com/package/mysql2)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
 
 # Easy-mysql
 
@@ -24,26 +76,61 @@ Required variables:
 
 `MYSQL_ROOT_PASSWORD`
 
-
-Optional variables:
-
-`MYSQL_DATABASE`
-
 `MYSQL_USER`
 
 `MYSQL_PASSWORD`
+
+`MYSQL_DATABASE`
+
+
+Optional variables:
+
+
 
 
 
 ## Installation
 
-Install the package
+You must have docker installed to use the package
+
+Don't forget to create a .env file at the root of your project
+
+Install via npm
+
 
 ```bash
-  npm install @digioxdigiox/easy-mysql
+npm i @digioxdigiox/easy-mysql
 ```
 
-Create a .env file and specify the environment variables that you need
+Install via yarn
+
+```bash
+yarn add @digioxdigiox/easy-mysql
+```
+
+## Usage
+
+import the db instance
+
+```javascript
+const { db } = require("@digioxdigiox/easy-mysql/mysql-connect");
+
+// Usage example
+
+db.query(
+    'SELECT * FROM `users` ',
+    function(err, results, fields) {
+        if (err) {
+            console.error(err)
+        }
+      console.log(results);
+    }
+  );
+```
+
+
+You can now use the database instance as you would do with the package [mysql2](https://www.npmjs.com/package/mysql2)
+
 
     
 ## Features
