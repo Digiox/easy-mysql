@@ -55,10 +55,21 @@ Commands
 - stop mysql with phpmyadmin (delete all your databases) 
 `npx stop`
 
+More features
+
+- You can access and manage your databases via phpmyadmin on port 8081
+
 
 ## Roadmap
 
 - Add command to stop mysql without loosing databases
 
-- Add a command to clear all containers and their volumes
+- Add command to clear all containers and their volumes
+
+- Add phpmyadmin port environment variable
+
+
+## License
+
+[MIT](https://github.com/Digiox/easy-mysql/LICENSE)
 
