@@ -1,5 +1,8 @@
 # easy-mysql
 
+
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Digiox/easy-mysql/blob/dev/LICENSE)
+
 Adding mysql to your project has never been so easy
 
 ## Installation
