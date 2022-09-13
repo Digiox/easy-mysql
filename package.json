@@ -1,6 +1,6 @@
 {
   "name": "@digioxdigiox/easy-mysql",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "the easiest way to install and use mysql with nodejs",
   "main": "index.js",
   "license": "MIT",
@@ -11,6 +11,9 @@
   "bin": {
     "go": "bin/go.js",
     "stop": "bin/stop.js"
+  },
+  "scripts": {
+    "publish-package": "npm publish --access public"
   },
   "author": "digiox <bourlon.lyann84@gmail.com>"
 }
