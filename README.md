@@ -71,5 +71,5 @@ More features
 
 ## License
 
-[MIT](https://github.com/Digiox/easy-mysql/LICENSE)
+[MIT](https://github.com/Digiox/easy-mysql/blob/dev/LICENSE)
 
